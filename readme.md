@@ -55,7 +55,7 @@ Pieces you’ll probably never understand unless you’ve failed physics twice (
 
 ---
 
-## Why? 🤔
+## Why? 
 
 Because **“GOD TOLD ME TO.”**
 
