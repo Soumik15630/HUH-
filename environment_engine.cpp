@@ -9,7 +9,7 @@
 
 #if defined(_WIN32) || defined(_WIN64)
 #include <time.h>
-// Windows doesn't have timegm, so we provide a cross-platform equivalent
+
 time_t timegm(struct tm *tm) { return _mkgmtime(tm); }
 #endif
 
@@ -397,7 +397,7 @@ namespace EnvEngine {
         }
     }
 
-    // --- Environment (API) Implementation ---
+    // --- Environment (API)  ---
     void Environment::initialize(const std::map<std::string, std::any>& config, TrackGeometry track) {
         unsigned int seed = 1337;
         if(config.count("seed")) seed = std::any_cast<unsigned int>(config.at("seed"));

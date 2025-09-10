@@ -36,7 +36,7 @@ namespace EnvEngine {
         constexpr real PI = 3.14159265358979323846;
         constexpr real SOLAR_CONSTANT = 1361; // W/m^2
         constexpr real VON_KARMAN_K = 0.41;
-        // FINAL FIX: Corrected evaporation coefficient based on physical constants
+        // Corrected evaporation coefficient based on physical constants - suggested by gpt
         constexpr real EVAPORATION_COEFF = 2.5e-7; 
     }
     
@@ -208,7 +208,7 @@ namespace EnvEngine {
         int get_x_dim() const { return grid_x_dim; }
         int get_y_dim() const { return grid_y_dim; }
         real get_cell_size() const { return cell_size; }
-        // FIX: Added a public accessor for the grid origin
+        // Added a public accessor for the grid origin
         const Vector3& get_origin() const { return grid_origin; }
         
         int get_x_idx(real world_x) const;
@@ -237,7 +237,7 @@ namespace EnvEngine {
         struct AtmosphereQueryResult { real T_air_C, p_air_kPa, RH_percent; Vector3 wind_vector_m_s; real visibility_m; };
         struct SolarQueryResult { real I_direct_W_m2, I_diffuse_W_m2, zenith_angle_deg; bool is_in_shadow; };
         using PrecipitationQueryResult = PrecipitationAndHydrometeors::PrecipData;
-        struct SurfaceStateResult { real ground_temp_C, water_depth_mm, rubber_level; }; // No longer managed here
+        struct SurfaceStateResult { real ground_temp_C, water_depth_mm, rubber_level; }; 
         struct SurfaceModifierResult { 
             real base_grip_modifier;
             real rolling_resistance_delta;
