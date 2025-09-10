@@ -48,10 +48,10 @@ Translation: I have no clue what’s happening, but diagrams make it look import
 
 Pieces you’ll probably never understand unless you’ve failed physics twice (don’t worry, me too):
 
-✅ **Environment Engine** → Yay, we can simulate fog. Still no cars.
-⚠️ **Car Physics** → Half-baked. Expect your “car” to yeet into orbit like a SpaceX launch.
-❌ **Track Engine** → Still a hallucination.
-❌ **RL Agent** → Currently just `import torch`. Future coping mechanism disguised as AI.
+-✅ **Environment Engine** → Yay, we can simulate fog. Still no cars.
+-⚠️ **Car Physics** → Half-baked. Expect your “car” to yeet into orbit like a SpaceX launch.
+-❌ **Track Engine** → Still a hallucination.
+-❌ **RL Agent** → Currently just `import torch`. Future coping mechanism disguised as AI.
 
 ---
 
