@@ -59,7 +59,5 @@ Pieces you’ll probably never understand unless you’ve failed physics twice (
 
 Because **“GOD TOLD ME TO.”**
 
-This repo is the software equivalent of saying:
-**“trust me bro.”**
 
 ---
