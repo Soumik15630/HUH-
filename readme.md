@@ -1,6 +1,4 @@
-Got it 👍 — here’s your README in proper **GitHub Markdown format** so it looks clean and sarcastic instead of just raw text:
 
-````markdown
 # HUH? 🤷  
 
 *"Ig I’m doing something… but hell if I know what."*  
@@ -64,11 +62,4 @@ Because **“GOD TOLD ME TO.”**
 This repo is the software equivalent of saying:
 **“trust me bro.”**
 
----
 
-```
-
-This will render perfectly on GitHub with headings, bullet points, checkmarks, and the ASCII box intact.  
-
-Want me to also drop in **funny badges** (like `works-on-my-machine ✔️`, `build: chaos`, `commit frequency: regret`) at the top for extra spice?
-```
