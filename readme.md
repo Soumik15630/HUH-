@@ -1,5 +1,5 @@
 
-# HUH? 🤷  
+# HUH? 
 
 *"Ig I’m doing something… but hell if I know what."*  
 
